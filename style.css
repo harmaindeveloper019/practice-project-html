@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-ExtraLight.ttf);
+}
+body{
+    font-family: "poppins";
+    line-height: 1.4;
+    font-weight: 300;
+    background-color: whitesmoke;
+}
+.hero-section{
+    position: absolute;
+    background-image: url(developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
